@@ -3,7 +3,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.3.3"
 
 group :jekyll_plugins do
-  gem "jekyll-archives"
+  gem "jekyll-archives-v2"
   gem "jekyll-email-protect"
   gem "jekyll-feed"
   gem "jekyll-get-json"
@@ -16,6 +16,7 @@ group :jekyll_plugins do
   gem "jekyll-scholar"
   gem "jekyll-sitemap"
   gem "jekyll-tabs"
+  gem "jekyll-terser"
   gem "jekyll-toc"
   gem "jekyll-twitter-plugin"
   gem "jemoji"
