@@ -2,96 +2,120 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Patrik Sabol
     - name: Date of Birth
-      value: 14th March 1879
+      value: 2nd January 1992
+    - name: Email
+      value: pato.sabol@gmail.com
+    - name: Phone
+      value: +421 917 764 794
+    - name: Location
+      value: Košice, Slovakia
     - name: Languages
-      value: English, German
+      value: Slovak (native), English (C1)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Artificial Intelligence
+      institution: Technical University of Košice, Slovakia
+      year: 2016 - 2020
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - "Thesis: Explainable classifier supporting decision in medical domain"
+        - Developed explainable CFCMC classifier helping pathologists in decision-making
+        - Published 4 international conference papers and 2 papers in indexed journals (Q1 and Q3)
+        - Developed explainable classifier using convolutional neural networks with visualizing demo using Azure Cloud Services
+    - title: Master Degree of Intelligent Systems
+      institution: Technical University of Košice, Slovakia
+      year: 2014 - 2016
+    - title: Bachelor Degree of Intelligent Systems
+      institution: Technical University of Košice, Slovakia
+      year: 2011 - 2014
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Computer Vision Engineer
+      institution: Geodeticca Vision s.r.o, Košice, Slovakia
+      year: 2021 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Lead technical development on major EU projects (FFplus, AERODROMATION for ESA)
+        - Developed foundation models for geospatial analysis using HPC infrastructure (MareNostrum-5)
+        - Built and deployed ML models for building footprint extraction, traffic sign detection, and OCR
+        - Managed end-to-end ML pipeline from research to production deployment on Google Cloud/Kubernetes
+        - Processed geospatial datasets from 17 European countries using GDAL, Geopandas, and custom pipelines
+
+    - title: Mobile App Developer (Freelance)
+      institution: Baby-Care Project
+      year: 2022 - Present
       description:
-        - Description 1.
-        - Description 2.
+        - Full-stack development of cross-platform mobile app using Flutter
+        - Built comprehensive baby-care tracking application with cloud sync
+        - Implemented features for activity tracking, growth monitoring, and milestone recording
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Machine Learning Engineer
+      institution: Matsuko s.r.o, Košice, Slovakia
+      year: 2020 - 2021
       description:
+        - Research and development of ML models for holographical communication
+        - Developed 2D to 3D human transformation and segmentation models
+        - Software development for custom 3D scanner using Swift and Python
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Machine Learning Engineer (Part-time)
+      institution: Geodeticca Vision s.r.o, Košice, Slovakia
+      year: 2019 - 2020
+      description:
+        - Development of ML models for object segmentation from aerial and satellite imagery
+        - Built image segmentation pipelines using TensorFlow
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Key Projects
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Foundation Model for Geospatial Analysis (FFplus)
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - EU-funded HPC project using MareNostrum-5 supercomputer
+        - Vision Transformer-based foundation model with MAE pre-training
+        - Distributed training on HPC with SLURM and Singularity containers
+    - title: AERODROMATION (ESA)
       items:
-        - Description 1.
-        - Description 2.
+        - Automated airport mapping from satellite imagery
+        - Pix2Poly framework for direct polygon prediction
+        - Deployment on GKE with Nvidia Triton Server
+    - title: Building Footprint Extraction
+      items:
+        - Deep learning pipeline for topologically clean vector extraction
+        - Off-nadir displacement correction using ML
+        - Production deployment with Docker and FastAPI
 
-- title: Other Interests
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Machine Learning & AI
+      items:
+        - "Frameworks: PyTorch, PyTorch Lightning, TensorFlow, Keras"
+        - "Tools: Wandb, MLflow, DVC"
+        - "Specialization: Computer Vision, Geospatial AI, Foundation Models"
+    - title: Programming Languages
+      items:
+        - "Primary: Python, C/C++"
+        - "Mobile: Dart (Flutter), Swift"
+        - "Other: Java, R, LaTeX, CUDA"
+    - title: Cloud & DevOps
+      items:
+        - "Platforms: Google Cloud, Microsoft Azure"
+        - "Containers: Docker, Kubernetes, Singularity"
+        - "Deployment: Nvidia Triton Server, FastAPI"
+        - "HPC: SLURM, MareNostrum-5"
+    - title: Geospatial Technologies
+      items:
+        - "Tools: QGIS, GDAL, Geopandas, Shapely, PostGIS"
+        - "Processing: Coordinate transformations, raster/vector processing"
+
+- title: Publications
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "P. Sabol et al. (2020). Explainable classifier for improving accountability in colorectal cancer diagnosis. <i>Journal of Biomedical Informatics</i>, 109. (Q1)"
+    - "P. Sabol et al. (2019). Semantically Explainable Fuzzy Classifier. <i>International Journal of Pattern Recognition and AI</i>, 33(12). (Q3)"
+    - "P. Sabol et al. (2019). Explainable Classifier for Breast Cancer Diagnosis. <i>IJCNN 2019</i>, IEEE."
+    - "P. Sabol & P. Sinčák (2018). AI Bricks: Microservices for Cloud Robotics. <i>DISA 2018</i>, IEEE."
+    - "P. Sabol et al. (2017). Cumulative fuzzy class membership criterion decision-based classifier. <i>SMC 2017</i>, IEEE."
